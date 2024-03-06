@@ -1,0 +1,14 @@
+{
+  "name": "laba-1",
+  "version": "1.0.0",
+  "description": "Console app which converts markdownToHtml",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "laba-1"
+  ],
+  "author": "makskhv21",
+  "license": "ISC"
+}
