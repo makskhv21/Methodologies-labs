@@ -46,9 +46,14 @@ function insertCodeBlocks(text, codeBlocks) {
     return text.replace(new RegExp(codeBlockPlaceholder, 'g'), () => '<pre>' + codeBlocks.shift() + '</pre>');
 }
   
+function formatHTMLParagraphs(text) {
+    return '<p>' + text.trim().replace(/(?:\r?\n\r?\n|^)([^<>\r\n]+)(?:\r?\n\r?\n|$)/g, '</p>\n<p>$1' + '</p>');
+}
+
 module.exports = {
     validateHTMLStructure,
     validateMarkdownSymbols,
     extractCodeBlocks,
     insertCodeBlocks,
+    
 };
