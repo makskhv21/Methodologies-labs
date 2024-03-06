@@ -13,7 +13,6 @@ function convertMarkdownToHTML(markdownText) {
     const codeBlocks = [];
   
     const textReplacements = [
-      [/\*\*\*([^*]+)\*\*\*/g, '<b><i>$1</i></b>'],
       [/\*\*(.*?)\*\*/g, '<b>$1</b>'],
       [/_([\w\s]+)_/gu, '<i>$1</i>'],
       [/`([^`]+)`/g, '<tt>$1</tt>'],

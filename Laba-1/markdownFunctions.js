@@ -47,7 +47,7 @@ function insertCodeBlocks(text, codeBlocks) {
 }
   
 function formatHTMLParagraphs(text) {
-    return '<p>' + text.trim().replace(/(?:\r?\n\r?\n|^)([^<>\r\n]+)(?:\r?\n\r?\n|$)/g, '</p>\n<p>$1' + '</p>');
+    return '<p>' + text.trim().replace(/(?:\r?\n\r?\n|^)([^<>\r\n]+)(?:\r?\n\r?\n|$)/g, '</p>\n<p>$1' + '</p>\n');
 }
 
 module.exports = {
