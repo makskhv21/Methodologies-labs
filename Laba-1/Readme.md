@@ -43,5 +43,5 @@ Preformatted text
 
 ## Додаткова інформація 
 Виконав роботу Хвиць Максим, ІМ-21.
-1Revert-comit
-1Revert-comit
+[1Revert-comit](https://github.com/makskhv21/Methodologies-labs/commit/5eec24f1f036b330ba3006dfcc099b6ffa5ea544)
+[2Revert-comit](https://github.com/makskhv21/Methodologies-labs/commit/19b26667729674e49e71c01c2a732686aa68c1a0)
