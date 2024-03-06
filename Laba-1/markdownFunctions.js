@@ -55,5 +55,5 @@ module.exports = {
     validateMarkdownSymbols,
     extractCodeBlocks,
     insertCodeBlocks,
-    formatHtmlParagraph
+    
 };
