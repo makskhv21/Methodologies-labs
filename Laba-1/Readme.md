@@ -14,27 +14,29 @@ Preformatted text
 5. `~~shaded~~` - ~~заштрихований текст~~
 
 ## Інструкція, як зібрати та запустити проект
-Насмперед, переконайтеся чи у Вас встановлена `Node.js`.
+Насамперед, переконайтеся чи у Вас встановлена `Node.js`.
 
 Встановити можна [тут](https://nodejs.org/en). Перевірити встановлення: 
-`node -v` 
+`node -v`.
 
-1. Clone repoitory via git clone `https://github.com/makskhv21/Methodologies-labs.git`
+1. Clone repository via git clone `https://github.com/makskhv21/Methodologies-labs.git`
 2. Change your directory to Laba-1: `cd Laba-1`
 3. Run `node main.js Readme.md`
 
 ## Інструкція до використання проекту
-1. Написати будь-яку інформацію в файлі `.md`
+1. Написати будь-яку інформацію в файлі `.md`.
+
 ![](./img/image.png)
-2. В терміналі вести `node main.js file.md`
+
+3. В терміналі вести `node main.js file.md`.
 
 ![](./img/image1.png)
 
-4. Якщо не буде знайдено помилок в `.md`
+4. Якщо не буде знайдено помилок в `.md`, результат.
 
 ![](./img/image2.png)
 
-5. Але якщо будуть знайдені помилки, то в консолі результатом буде тип помилки
+5. Але якщо будуть знайдені помилки, то в консолі результатом буде тип помилки.
 
 ![](./img/image3.png)
 
