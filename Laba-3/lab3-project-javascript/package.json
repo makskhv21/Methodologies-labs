@@ -1,0 +1,9 @@
+{
+  "name": "simple-express-app",
+  "version": "1.0.0",
+  "description": "A simple Express.js app",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
