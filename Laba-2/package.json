@@ -1,0 +1,17 @@
+{
+  "name": "laba-2",
+  "version": "1.0.0",
+  "description": "Console app which converts markdownToHtml",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "laba-1"
+  ],
+  "author": "makskhv21",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
